@@ -13,14 +13,14 @@ import static org.apache.spark.sql.functions.col;
 
 /**
  *
- * Measuring performance without cache, with cache, and with checkpoint(eager or not)
+ * Measuring performance without cache, with cache, and with checkpoint (eager or not)
  *
  * Can be run via the command line: (same as textbook)
  *
  * ~/spark-2.4.7/bin/spark-submit  \
  *   --master spark://localhost:7077  \
  *   --class david.final_pj.cachingWithSQL  \
- *   /home/ubuntu/myApp/final.jar 1000000 2
+ *   /home/ubuntu/myApp/final_pj.jar 1000000 2
  *                                   |    |
  *                                   |    +--  different testing mode
  *                                   |

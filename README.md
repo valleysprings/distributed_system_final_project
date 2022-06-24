@@ -8,7 +8,7 @@ Spark非常重要的一个功能特性就是可以将RDD持久化在内存中。
 
 给出服务器运行的基本代码示例
 
-```java
+```shell
 # 首先需要把jar文件放入myApp内，然后需要上传数据集到input文件夹内
 
 # 启动服务
@@ -16,7 +16,7 @@ Spark非常重要的一个功能特性就是可以将RDD持久化在内存中。
 ~/spark-2.4.7/sbin/start-all.sh
 ~/spark-2.4.7/sbin/start-history-server.sh
 
-# 上传数据集到hdfs文件系统
+# 上传数据集到HDFS文件系统
 ~/hadoop-2.10.1/bin/hdfs dfs -put ~/input/dataset.csv ./spark_input
 
 # 删除HDFS上的输出路径
